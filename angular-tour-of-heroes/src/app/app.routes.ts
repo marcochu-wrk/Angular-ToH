@@ -1,12 +1,13 @@
 import { RouterModule, Routes } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { NgModule } from '@angular/core';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 export const routes: Routes = [
     
     {path: '', component: DashboardComponent},
     {path: 'heroes', 
-    component: HeroesComponent}
+    component: HeroesComponent},
+    {path: 'detail/:id', component: HeroDetailComponent}
 ];
 export class AppRoutingModule{ }
