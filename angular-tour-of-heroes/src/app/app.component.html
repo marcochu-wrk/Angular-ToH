@@ -1,4 +1,7 @@
 <h1>{{ title }}</h1>
-<app-heroes></app-heroes>
+<div class="dashboard_container">
+    <a routerLink="/" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</div>
 <app-messages></app-messages>
-<router-outlet />
+<router-outlet/>

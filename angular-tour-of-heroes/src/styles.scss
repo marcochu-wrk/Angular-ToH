@@ -42,3 +42,11 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .dashboard_container{
+    display: flex;
+    gap: 2rem;
+    a{
+      text-decoration: none;
+    }
+  }
